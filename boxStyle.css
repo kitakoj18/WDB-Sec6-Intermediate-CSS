@@ -1,0 +1,22 @@
+p{
+	/*Content - width and height: changes width and height of the box, in this case this will show with the border set below*/
+	width: 50%;
+	/*height: 200px;*/
+
+	/*Border*/
+	border: 2px solid blue;
+
+	/*Padding: space between element and border*/
+	padding: 10px;
+	/*padding-left: 40px;*/
+
+	/*Marging: space inbetween elements or around the element*/
+	margin: 100px;
+	/*margin-top: 500px;*/
+
+	/*can consolidate to do different margins for top-right-bottom-left:*/
+	/*margin: 20px 40px 500px 100px;*/
+	/*centers elements on left and right depending on width above, can write both ways*/
+	/*margin: 0px auto 0px auto*/
+	/*margin: 0 auto*/
+}

@@ -1,0 +1,54 @@
+/*connected to fonts.html*/
+
+/*font-family*/
+
+p{
+	font-family: Arial;
+}
+
+h1{
+	font-family: Georgia;
+}
+
+/*font-size*/
+body{
+	font-size: 10px;
+}
+/*em is dynamic sizing where it is some ratio of the parent tag*/
+/*h1 tag will be 5x as big as body*/
+h1{
+	font-size: 5.0em;
+}
+/*p tag will be 2x as big as body*/
+p{
+	font-size: 2.0em;
+}
+/*span tag will be 2x as big as p*/
+span{
+	font-size: 2.0em;
+}
+
+/*font-weight: how bold/thick the font is*/
+/*can take numerical value 100-800 (values are by 100 not anything inbetween)*/
+p{
+	font-weight: bold;
+}
+
+/*line height: spacing in between lines*/
+p{
+	/*double spacing*/
+	line-height: 2;
+}
+
+/*text-alight: how text of given element is aligned*/
+h1{
+	text-align: center;
+}
+
+/*text-decoration: things like strikethrough, underline*/
+p{
+	text-decoration: underline;
+}
+h1{
+	text-decoration: line-through;
+}

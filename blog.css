@@ -1,0 +1,45 @@
+/*border color: #bdc3c7
+date color: #3498db
+h2 color: #2c3e50
+font: source sans pro*/
+body{
+	width: 60%;
+	/*makes window dynamic: if we drag and shrink the window, will adjust if 60% of window is less than 700px*/
+	max-width: 700px;
+	/*20px margin top and bottom / centered margin for left and right*/
+	margin: 20px auto;
+	border: 20px solid #bdc3c7;
+	padding: 20px;
+	font-family: Source Sans Pro;
+}
+
+.date{
+	color: #3498db;
+	text-transform: uppercase;
+	/*rem is different than em as it is proportion to fontsize of root element not parent*/
+	/*below is inserting spacing inbetween letters that's 20% of the font size*/
+	letter-spacing: 0.2rem;
+}
+
+h1{
+	color: #2c3e50;
+	font-size: 2.0 rem;
+}
+
+.first_p{
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+/*p{
+	margin-top: 20px;
+}*/
+.post{
+	margin-bottom: 20px;
+}
+
+hr{
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
